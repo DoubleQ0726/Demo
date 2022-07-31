@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/szq/Work/Demo/build",
+  "command": "/bin/g++-9   -I/usr/include/mysql   -rdynamic -o0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g   -o CMakeFiles/test_boost.dir/src/test_boost.cpp.o -c /home/szq/Work/Demo/src/test_boost.cpp",
+  "file": "/home/szq/Work/Demo/src/test_boost.cpp"
+}
+]

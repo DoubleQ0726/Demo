@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szq/Work/Demo/src/test_boost.cpp
+bits/stdc++.h
+-
+sys/types.h
+-
+unistd.h
+-
+iostream
+-
+string
+-
+thread
+-
+list
+-
+mutex
+-
+stdio.h
+-
+unistd.h
+-
+netdb.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+algorithm
+-
+stdio.h
+-
+signal.h
+-
+iostream
+-
+
