@@ -1,1 +1,0 @@
-/bin/g++-9   -rdynamic -o0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -g   CMakeFiles/test_boost.dir/src/test_boost.cpp.o  -o ../bin/test_boost  -lpthread 
