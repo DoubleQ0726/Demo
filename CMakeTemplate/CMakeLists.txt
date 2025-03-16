@@ -6,6 +6,23 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project(hello_cmake)
 
+add_compile_options(
+  -Wall
+  -Wextra
+  -Weffc++
+  -Wuninitialized
+  -Wreturn-type
+  -Wconversion
+  -Wsign-compare
+  -Wunused-result
+  -Wsuggest-override
+  -Wzero-as-null-pointer-constant
+  -Wold-style-cast
+  -Wvla
+  -Wnon-virtual-dtor
+  -Wmissing-declarations
+)
+
 if (PROJECT_BINARY_DIR STREQUAL PROJECT_SOURCE_DIR)
   message(WARNING "The binary dir of CMake cannot be the same as source dir")
 endif()
